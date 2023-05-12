@@ -19,7 +19,7 @@ outputWriter.writerow(['Id','Name','SGPA'])
 
 id_list = []
 pwd_list = []
-with open('id.txt','r') as f:
+with open('data.txt','r') as f:
     l = f.readlines()
     # print(l)
     for i in l:
